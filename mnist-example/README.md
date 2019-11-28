@@ -1,12 +1,8 @@
 ## How To Run
+
+git clone으로 코드 복사
+
 ```bash
-# run a session with dataset name mnist
-$ nsml run -d mnist 
-
-```
-mnint 샘플코드로 nsml환경에서 테스트하기.
-
-```
 AL01205606:test-run ykkim$ git clone https://github.com/Naver-AI-Hackathon/nsml.git
 
 'nsml'에 복제합니다...
@@ -15,6 +11,11 @@ remote: Counting objects: 100% (21/21), done.
 remote: Compressing objects: 100% (18/18), done.
 remote: Total 21 (delta 4), reused 12 (delta 1), pack-reused 0
 오브젝트 묶음 푸는 중: 100% (21/21), 완료.
+
+```
+mnint 샘플코드로 nsml환경에서 실행하기
+
+``
 
 AL01205606:test-run ykkim$ cd nsml/mnist-example/
 AL01205606:mnist-example ykkim$ ls
