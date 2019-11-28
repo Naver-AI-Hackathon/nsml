@@ -70,7 +70,7 @@ Checkpoint    Last Modified    Elapsed    Summary                               
 ```
 원하는 모델로 submit 진행 (리드보드에 제출)
 ```
-AL01205606:mnist-example ykkim$ ai submit nsmlteam/mnist2/10 9
+AL01205606:mnist-example ykkim$ nsml submit nsmlteam/mnist2/10 9
 .......
 Building docker image. It might take for a while
 .........load nsml model takes 0.4842050075531006 seconds
