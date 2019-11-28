@@ -2,7 +2,8 @@
 
 git clone으로 코드 복사
 
-```bash
+```
+
 AL01205606:test-run ykkim$ git clone https://github.com/Naver-AI-Hackathon/nsml.git
 
 'nsml'에 복제합니다...
@@ -15,7 +16,7 @@ remote: Total 21 (delta 4), reused 12 (delta 1), pack-reused 0
 ```
 mnint 샘플코드로 nsml환경에서 실행하기
 
-``
+```
 
 AL01205606:test-run ykkim$ cd nsml/mnist-example/
 AL01205606:mnist-example ykkim$ ls
@@ -45,6 +46,7 @@ Building docker image. It might take for a while
 .......
 Session nsmlteam/mnist2/10 is started
 ```
+
 NSML에서 세션 확인
 ```
 AL01205606:mnist-example ykkim$ nsml ps
