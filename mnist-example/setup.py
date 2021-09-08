@@ -8,6 +8,6 @@ setup(
     install_requires=[
         'matplotlib==3.1.1',
         'tqdm==4.32.2',
-        'pillow==6.1.0'
+        'pillow==8.3.2'
     ]
 )
